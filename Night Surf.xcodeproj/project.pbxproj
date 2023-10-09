@@ -21,7 +21,8 @@
 		D5D8D22C2AD47803000FD3CC /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D5D8D22B2AD47803000FD3CC /* ToolbarItemIcon.pdf */; };
 		D5D8D22F2AD47803000FD3CC /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5D8D22D2AD47803000FD3CC /* SafariExtensionViewController.xib */; };
 		D5D8D2402AD47E69000FD3CC /* dark.js in Resources */ = {isa = PBXBuildFile; fileRef = D5D8D23E2AD47E2B000FD3CC /* dark.js */; };
-		D5D8D2422AD481D6000FD3CC /* Night_Surfer_safari.png in Resources */ = {isa = PBXBuildFile; fileRef = D5D8D2412AD481D5000FD3CC /* Night_Surfer_safari.png */; };
+		D5D8D2422AD481D6000FD3CC /* NS_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D5D8D2412AD481D5000FD3CC /* NS_Icon.png */; };
+		D5D8D2452AD483B2000FD3CC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D5D8D2442AD483B2000FD3CC /* Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +70,8 @@
 		D5D8D2312AD47803000FD3CC /* Night_Surf_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Night_Surf_Extension.entitlements; sourceTree = "<group>"; };
 		D5D8D23B2AD478C5000FD3CC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D5D8D23E2AD47E2B000FD3CC /* dark.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = dark.js; sourceTree = "<group>"; };
-		D5D8D2412AD481D5000FD3CC /* Night_Surfer_safari.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Night_Surfer_safari.png; sourceTree = "<group>"; };
+		D5D8D2412AD481D5000FD3CC /* NS_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NS_Icon.png; sourceTree = "<group>"; };
+		D5D8D2442AD483B2000FD3CC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../../../../../.Trash/Icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,7 +129,8 @@
 			isa = PBXGroup;
 			children = (
 				D5D8D2092AD47802000FD3CC /* Main.html */,
-				D5D8D2412AD481D5000FD3CC /* Night_Surfer_safari.png */,
+				D5D8D2442AD483B2000FD3CC /* Icon.png */,
+				D5D8D2412AD481D5000FD3CC /* NS_Icon.png */,
 				D5D8D20E2AD47802000FD3CC /* Style.css */,
 				D5D8D2102AD47802000FD3CC /* Script.js */,
 			);
@@ -240,9 +243,10 @@
 			files = (
 				D5D8D2162AD47802000FD3CC /* Main.storyboard in Resources */,
 				D5D8D2112AD47802000FD3CC /* Script.js in Resources */,
-				D5D8D2422AD481D6000FD3CC /* Night_Surfer_safari.png in Resources */,
+				D5D8D2422AD481D6000FD3CC /* NS_Icon.png in Resources */,
 				D5D8D20B2AD47802000FD3CC /* Main.html in Resources */,
 				D5D8D2182AD47803000FD3CC /* Assets.xcassets in Resources */,
+				D5D8D2452AD483B2000FD3CC /* Icon.png in Resources */,
 				D5D8D20F2AD47802000FD3CC /* Style.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

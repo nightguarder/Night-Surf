@@ -34,13 +34,15 @@
 		<dict>
 			<key>Allowed Domains</key>
 			<array>
-				<string>example.com</string>
+				<string>*.duckduckgo.com</string>
+				<string>*.apple.com</string>
+				<string>*.tradingview.com</string>
 			</array>
 			<key>Level</key>
 			<string>Some</string>
 		</dict>
 	</dict>
 	<key>NSHumanReadableDescription</key>
-	<string>This is Night Surf Extension. You should tell us what your extension does here.</string>
+	<string>This is Night Surf Extension. The only true Dark Mode App for Safari.</string>
 </dict>
 </plist>
