@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5D8D2072AD47802000FD3CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D8D2062AD47802000FD3CC /* AppDelegate.swift */; };
+		D5D8D20B2AD47802000FD3CC /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = D5D8D2092AD47802000FD3CC /* Main.html */; };
+		D5D8D20D2AD47802000FD3CC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D5D8D20C2AD47802000FD3CC /* Icon.png */; };
+		D5D8D20F2AD47802000FD3CC /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = D5D8D20E2AD47802000FD3CC /* Style.css */; };
+		D5D8D2112AD47802000FD3CC /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = D5D8D2102AD47802000FD3CC /* Script.js */; };
+		D5D8D2132AD47802000FD3CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D8D2122AD47802000FD3CC /* ViewController.swift */; };
+		D5D8D2162AD47802000FD3CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5D8D2142AD47802000FD3CC /* Main.storyboard */; };
+		D5D8D2182AD47803000FD3CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5D8D2172AD47803000FD3CC /* Assets.xcassets */; };
+		D5D8D2202AD47803000FD3CC /* Night Surf Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D5D8D21F2AD47803000FD3CC /* Night Surf Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D5D8D2252AD47803000FD3CC /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D8D2242AD47803000FD3CC /* SafariExtensionHandler.swift */; };
+		D5D8D2272AD47803000FD3CC /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D8D2262AD47803000FD3CC /* SafariExtensionViewController.swift */; };
+		D5D8D22A2AD47803000FD3CC /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = D5D8D2292AD47803000FD3CC /* script.js */; };
+		D5D8D22C2AD47803000FD3CC /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D5D8D22B2AD47803000FD3CC /* ToolbarItemIcon.pdf */; };
+		D5D8D22F2AD47803000FD3CC /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5D8D22D2AD47803000FD3CC /* SafariExtensionViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5D8D2212AD47803000FD3CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5D8D1FB2AD47802000FD3CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5D8D21E2AD47803000FD3CC;
+			remoteInfo = "Night Surf Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D5D8D2372AD47803000FD3CC /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D5D8D2202AD47803000FD3CC /* Night Surf Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D5D8D2032AD47802000FD3CC /* Night Surf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Night Surf.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5D8D2062AD47802000FD3CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5D8D20A2AD47802000FD3CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		D5D8D20C2AD47802000FD3CC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		D5D8D20E2AD47802000FD3CC /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		D5D8D2102AD47802000FD3CC /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		D5D8D2122AD47802000FD3CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D5D8D2152AD47802000FD3CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5D8D2172AD47803000FD3CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5D8D2192AD47803000FD3CC /* Night_Surf.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Night_Surf.entitlements; sourceTree = "<group>"; };
+		D5D8D21A2AD47803000FD3CC /* Night Surf.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Night Surf.entitlements"; sourceTree = "<group>"; };
+		D5D8D21F2AD47803000FD3CC /* Night Surf Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Night Surf Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5D8D2242AD47803000FD3CC /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		D5D8D2262AD47803000FD3CC /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
+		D5D8D2292AD47803000FD3CC /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		D5D8D22B2AD47803000FD3CC /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
+		D5D8D22E2AD47803000FD3CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		D5D8D2302AD47803000FD3CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5D8D2312AD47803000FD3CC /* Night_Surf_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Night_Surf_Extension.entitlements; sourceTree = "<group>"; };
+		D5D8D23B2AD478C5000FD3CC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5D8D2002AD47802000FD3CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D8D21C2AD47803000FD3CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5D8D1FA2AD47802000FD3CC = {
+			isa = PBXGroup;
+			children = (
+				D5D8D23B2AD478C5000FD3CC /* README.md */,
+				D5D8D2052AD47802000FD3CC /* Night Surf */,
+				D5D8D2232AD47803000FD3CC /* Night Surf Extension */,
+				D5D8D2042AD47802000FD3CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5D8D2042AD47802000FD3CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5D8D2032AD47802000FD3CC /* Night Surf.app */,
+				D5D8D21F2AD47803000FD3CC /* Night Surf Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5D8D2052AD47802000FD3CC /* Night Surf */ = {
+			isa = PBXGroup;
+			children = (
+				D5D8D2062AD47802000FD3CC /* AppDelegate.swift */,
+				D5D8D2122AD47802000FD3CC /* ViewController.swift */,
+				D5D8D2142AD47802000FD3CC /* Main.storyboard */,
+				D5D8D2172AD47803000FD3CC /* Assets.xcassets */,
+				D5D8D2192AD47803000FD3CC /* Night_Surf.entitlements */,
+				D5D8D21A2AD47803000FD3CC /* Night Surf.entitlements */,
+				D5D8D2082AD47802000FD3CC /* Resources */,
+			);
+			path = "Night Surf";
+			sourceTree = "<group>";
+		};
+		D5D8D2082AD47802000FD3CC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D5D8D2092AD47802000FD3CC /* Main.html */,
+				D5D8D20C2AD47802000FD3CC /* Icon.png */,
+				D5D8D20E2AD47802000FD3CC /* Style.css */,
+				D5D8D2102AD47802000FD3CC /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D5D8D2232AD47803000FD3CC /* Night Surf Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D5D8D2242AD47803000FD3CC /* SafariExtensionHandler.swift */,
+				D5D8D2262AD47803000FD3CC /* SafariExtensionViewController.swift */,
+				D5D8D22D2AD47803000FD3CC /* SafariExtensionViewController.xib */,
+				D5D8D2302AD47803000FD3CC /* Info.plist */,
+				D5D8D2312AD47803000FD3CC /* Night_Surf_Extension.entitlements */,
+				D5D8D2282AD47803000FD3CC /* Resources */,
+			);
+			path = "Night Surf Extension";
+			sourceTree = "<group>";
+		};
+		D5D8D2282AD47803000FD3CC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D5D8D2292AD47803000FD3CC /* script.js */,
+				D5D8D22B2AD47803000FD3CC /* ToolbarItemIcon.pdf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5D8D2022AD47802000FD3CC /* Night Surf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5D8D2382AD47803000FD3CC /* Build configuration list for PBXNativeTarget "Night Surf" */;
+			buildPhases = (
+				D5D8D1FF2AD47802000FD3CC /* Sources */,
+				D5D8D2002AD47802000FD3CC /* Frameworks */,
+				D5D8D2012AD47802000FD3CC /* Resources */,
+				D5D8D2372AD47803000FD3CC /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5D8D2222AD47803000FD3CC /* PBXTargetDependency */,
+			);
+			name = "Night Surf";
+			productName = "Night Surf";
+			productReference = D5D8D2032AD47802000FD3CC /* Night Surf.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5D8D21E2AD47803000FD3CC /* Night Surf Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5D8D2342AD47803000FD3CC /* Build configuration list for PBXNativeTarget "Night Surf Extension" */;
+			buildPhases = (
+				D5D8D21B2AD47803000FD3CC /* Sources */,
+				D5D8D21C2AD47803000FD3CC /* Frameworks */,
+				D5D8D21D2AD47803000FD3CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Night Surf Extension";
+			productName = "Night Surf Extension";
+			productReference = D5D8D21F2AD47803000FD3CC /* Night Surf Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5D8D1FB2AD47802000FD3CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					D5D8D2022AD47802000FD3CC = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					D5D8D21E2AD47803000FD3CC = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = D5D8D1FE2AD47802000FD3CC /* Build configuration list for PBXProject "Night Surf" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5D8D1FA2AD47802000FD3CC;
+			productRefGroup = D5D8D2042AD47802000FD3CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5D8D2022AD47802000FD3CC /* Night Surf */,
+				D5D8D21E2AD47803000FD3CC /* Night Surf Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5D8D2012AD47802000FD3CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D8D20D2AD47802000FD3CC /* Icon.png in Resources */,
+				D5D8D2162AD47802000FD3CC /* Main.storyboard in Resources */,
+				D5D8D2112AD47802000FD3CC /* Script.js in Resources */,
+				D5D8D20B2AD47802000FD3CC /* Main.html in Resources */,
+				D5D8D2182AD47803000FD3CC /* Assets.xcassets in Resources */,
+				D5D8D20F2AD47802000FD3CC /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D8D21D2AD47803000FD3CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D8D22F2AD47803000FD3CC /* SafariExtensionViewController.xib in Resources */,
+				D5D8D22C2AD47803000FD3CC /* ToolbarItemIcon.pdf in Resources */,
+				D5D8D22A2AD47803000FD3CC /* script.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5D8D1FF2AD47802000FD3CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D8D2132AD47802000FD3CC /* ViewController.swift in Sources */,
+				D5D8D2072AD47802000FD3CC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D8D21B2AD47803000FD3CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D8D2272AD47803000FD3CC /* SafariExtensionViewController.swift in Sources */,
+				D5D8D2252AD47803000FD3CC /* SafariExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5D8D2222AD47803000FD3CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5D8D21E2AD47803000FD3CC /* Night Surf Extension */;
+			targetProxy = D5D8D2212AD47803000FD3CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5D8D2092AD47802000FD3CC /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5D8D20A2AD47802000FD3CC /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		D5D8D2142AD47802000FD3CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5D8D2152AD47802000FD3CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5D8D22D2AD47803000FD3CC /* SafariExtensionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5D8D22E2AD47803000FD3CC /* Base */,
+			);
+			name = SafariExtensionViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5D8D2322AD47803000FD3CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5D8D2332AD47803000FD3CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D5D8D2352AD47803000FD3CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Night Surf Extension/Night_Surf_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Night Surf Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Night Surf Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cyrils.Night-Surf.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D5D8D2362AD47803000FD3CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Night Surf Extension/Night_Surf_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Night Surf Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Night Surf Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cyrils.Night-Surf.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D5D8D2392AD47803000FD3CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Night Surf/Night Surf.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Night Surf";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cyrils.Night-Surf";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D5D8D23A2AD47803000FD3CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Night Surf/Night Surf.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Night Surf";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cyrils.Night-Surf";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5D8D1FE2AD47802000FD3CC /* Build configuration list for PBXProject "Night Surf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5D8D2322AD47803000FD3CC /* Debug */,
+				D5D8D2332AD47803000FD3CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5D8D2342AD47803000FD3CC /* Build configuration list for PBXNativeTarget "Night Surf Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5D8D2352AD47803000FD3CC /* Debug */,
+				D5D8D2362AD47803000FD3CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5D8D2382AD47803000FD3CC /* Build configuration list for PBXNativeTarget "Night Surf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5D8D2392AD47803000FD3CC /* Debug */,
+				D5D8D23A2AD47803000FD3CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5D8D1FB2AD47802000FD3CC /* Project object */;
+}
