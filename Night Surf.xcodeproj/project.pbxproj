@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		D5D8D2072AD47802000FD3CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D8D2062AD47802000FD3CC /* AppDelegate.swift */; };
 		D5D8D20B2AD47802000FD3CC /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = D5D8D2092AD47802000FD3CC /* Main.html */; };
-		D5D8D20D2AD47802000FD3CC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D5D8D20C2AD47802000FD3CC /* Icon.png */; };
 		D5D8D20F2AD47802000FD3CC /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = D5D8D20E2AD47802000FD3CC /* Style.css */; };
 		D5D8D2112AD47802000FD3CC /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = D5D8D2102AD47802000FD3CC /* Script.js */; };
 		D5D8D2132AD47802000FD3CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D8D2122AD47802000FD3CC /* ViewController.swift */; };
@@ -21,6 +20,8 @@
 		D5D8D22A2AD47803000FD3CC /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = D5D8D2292AD47803000FD3CC /* script.js */; };
 		D5D8D22C2AD47803000FD3CC /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D5D8D22B2AD47803000FD3CC /* ToolbarItemIcon.pdf */; };
 		D5D8D22F2AD47803000FD3CC /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5D8D22D2AD47803000FD3CC /* SafariExtensionViewController.xib */; };
+		D5D8D2402AD47E69000FD3CC /* dark.js in Resources */ = {isa = PBXBuildFile; fileRef = D5D8D23E2AD47E2B000FD3CC /* dark.js */; };
+		D5D8D2422AD481D6000FD3CC /* Night_Surfer_safari.png in Resources */ = {isa = PBXBuildFile; fileRef = D5D8D2412AD481D5000FD3CC /* Night_Surfer_safari.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +52,6 @@
 		D5D8D2032AD47802000FD3CC /* Night Surf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Night Surf.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5D8D2062AD47802000FD3CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5D8D20A2AD47802000FD3CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
-		D5D8D20C2AD47802000FD3CC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		D5D8D20E2AD47802000FD3CC /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
 		D5D8D2102AD47802000FD3CC /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
 		D5D8D2122AD47802000FD3CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +68,8 @@
 		D5D8D2302AD47803000FD3CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5D8D2312AD47803000FD3CC /* Night_Surf_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Night_Surf_Extension.entitlements; sourceTree = "<group>"; };
 		D5D8D23B2AD478C5000FD3CC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D5D8D23E2AD47E2B000FD3CC /* dark.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = dark.js; sourceTree = "<group>"; };
+		D5D8D2412AD481D5000FD3CC /* Night_Surfer_safari.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Night_Surfer_safari.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,7 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				D5D8D2092AD47802000FD3CC /* Main.html */,
-				D5D8D20C2AD47802000FD3CC /* Icon.png */,
+				D5D8D2412AD481D5000FD3CC /* Night_Surfer_safari.png */,
 				D5D8D20E2AD47802000FD3CC /* Style.css */,
 				D5D8D2102AD47802000FD3CC /* Script.js */,
 			);
@@ -149,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				D5D8D2292AD47803000FD3CC /* script.js */,
+				D5D8D23E2AD47E2B000FD3CC /* dark.js */,
 				D5D8D22B2AD47803000FD3CC /* ToolbarItemIcon.pdf */,
 			);
 			path = Resources;
@@ -235,9 +238,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5D8D20D2AD47802000FD3CC /* Icon.png in Resources */,
 				D5D8D2162AD47802000FD3CC /* Main.storyboard in Resources */,
 				D5D8D2112AD47802000FD3CC /* Script.js in Resources */,
+				D5D8D2422AD481D6000FD3CC /* Night_Surfer_safari.png in Resources */,
 				D5D8D20B2AD47802000FD3CC /* Main.html in Resources */,
 				D5D8D2182AD47803000FD3CC /* Assets.xcassets in Resources */,
 				D5D8D20F2AD47802000FD3CC /* Style.css in Resources */,
@@ -248,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5D8D2402AD47E69000FD3CC /* dark.js in Resources */,
 				D5D8D22F2AD47803000FD3CC /* SafariExtensionViewController.xib in Resources */,
 				D5D8D22C2AD47803000FD3CC /* ToolbarItemIcon.pdf in Resources */,
 				D5D8D22A2AD47803000FD3CC /* script.js in Resources */,

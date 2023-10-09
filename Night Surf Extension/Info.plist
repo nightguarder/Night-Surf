@@ -11,6 +11,10 @@
 		<key>SFSafariContentScript</key>
 		<array>
 			<dict>
+				<key>Dark</key>
+				<string>dark.js</string>
+			</dict>
+			<dict>
 				<key>Script</key>
 				<string>script.js</string>
 			</dict>
