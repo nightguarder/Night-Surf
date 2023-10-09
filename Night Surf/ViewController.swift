@@ -7,28 +7,35 @@
 
 import Cocoa
 import SafariServices
+import SafariServices.SFSafariExtensionManager
 import WebKit
 
+let appName = "Night-Surf"
 let extensionBundleIdentifier = "cyrils.Night-Surf.Extension"
 
 class ViewController: NSViewController, WKNavigationDelegate, WKScriptMessageHandler {
 
     @IBOutlet var webView: WKWebView!
-
+    @IBOutlet var appNameLabel: NSTextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
         self.webView.navigationDelegate = self
-
+        
+        // Set the initial text for the appNameLabel
+        
+        
         self.webView.configuration.userContentController.add(self, name: "controller")
-
         self.webView.loadFileURL(Bundle.main.url(forResource: "Main", withExtension: "html")!, allowingReadAccessTo: Bundle.main.resourceURL!)
     }
 
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
         SFSafariExtensionManager.getStateOfSafariExtension(withIdentifier: extensionBundleIdentifier) { (state, error) in
             guard let state = state, error == nil else {
-                // Insert code to inform the user that something went wrong.
+                // Handle the error by informing the user or taking appropriate action.
+                    DispatchQueue.main.async {
+                        self.appNameLabel.stringValue = "\(appName)'s extension encountered an error."
+                        }
                 return
             }
 
@@ -53,5 +60,4 @@ class ViewController: NSViewController, WKNavigationDelegate, WKScriptMessageHan
             }
         }
     }
-
 }
