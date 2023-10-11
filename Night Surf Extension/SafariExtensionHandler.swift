@@ -38,7 +38,7 @@ class SafariExtensionHandler: SFSafariExtensionHandler {
     }
 
     override func popoverViewController() -> SFSafariExtensionViewController {
-        return SafariExtensionViewController.shared
+        PopoverViewWrapper()
     }
 
 }
