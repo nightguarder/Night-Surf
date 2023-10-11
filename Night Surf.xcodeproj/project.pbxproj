@@ -21,8 +21,12 @@
 		D5D8D22C2AD47803000FD3CC /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D5D8D22B2AD47803000FD3CC /* ToolbarItemIcon.pdf */; };
 		D5D8D22F2AD47803000FD3CC /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5D8D22D2AD47803000FD3CC /* SafariExtensionViewController.xib */; };
 		D5D8D2402AD47E69000FD3CC /* dark.js in Resources */ = {isa = PBXBuildFile; fileRef = D5D8D23E2AD47E2B000FD3CC /* dark.js */; };
-		D5D8D2422AD481D6000FD3CC /* NS_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D5D8D2412AD481D5000FD3CC /* NS_Icon.png */; };
 		D5D8D2452AD483B2000FD3CC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D5D8D2442AD483B2000FD3CC /* Icon.png */; };
+		D5F2C0122AD6AFAA008B6AF6 /* NS_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = D5F2C0112AD6AFAA008B6AF6 /* NS_1024.png */; };
+		D5F2C0162AD6B463008B6AF6 /* ToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F2C0152AD6B463008B6AF6 /* ToolbarView.swift */; };
+		D5F2C01E2AD6E8E8008B6AF6 /* Economica-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5F2C0182AD6E8C8008B6AF6 /* Economica-Bold.ttf */; };
+		D5F2C01F2AD6E8EC008B6AF6 /* Economica-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5F2C0192AD6E8C8008B6AF6 /* Economica-Italic.ttf */; };
+		D5F2C0202AD6E8EF008B6AF6 /* Economica-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5F2C01A2AD6E8C8008B6AF6 /* Economica-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,8 +74,12 @@
 		D5D8D2312AD47803000FD3CC /* Night_Surf_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Night_Surf_Extension.entitlements; sourceTree = "<group>"; };
 		D5D8D23B2AD478C5000FD3CC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D5D8D23E2AD47E2B000FD3CC /* dark.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = dark.js; sourceTree = "<group>"; };
-		D5D8D2412AD481D5000FD3CC /* NS_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NS_Icon.png; sourceTree = "<group>"; };
 		D5D8D2442AD483B2000FD3CC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../../../../../.Trash/Icon.png; sourceTree = "<group>"; };
+		D5F2C0112AD6AFAA008B6AF6 /* NS_1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NS_1024.png; sourceTree = "<group>"; };
+		D5F2C0152AD6B463008B6AF6 /* ToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarView.swift; sourceTree = "<group>"; };
+		D5F2C0182AD6E8C8008B6AF6 /* Economica-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Economica-Bold.ttf"; path = "Font/Economica/Economica-Bold.ttf"; sourceTree = SOURCE_ROOT; };
+		D5F2C0192AD6E8C8008B6AF6 /* Economica-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Economica-Italic.ttf"; path = "Font/Economica/Economica-Italic.ttf"; sourceTree = SOURCE_ROOT; };
+		D5F2C01A2AD6E8C8008B6AF6 /* Economica-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Economica-Regular.ttf"; path = "Font/Economica/Economica-Regular.ttf"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +122,7 @@
 		D5D8D2052AD47802000FD3CC /* Night Surf */ = {
 			isa = PBXGroup;
 			children = (
+				D5F2C0172AD6E8A0008B6AF6 /* Fonts */,
 				D5D8D2062AD47802000FD3CC /* AppDelegate.swift */,
 				D5D8D2122AD47802000FD3CC /* ViewController.swift */,
 				D5D8D2142AD47802000FD3CC /* Main.storyboard */,
@@ -130,7 +139,7 @@
 			children = (
 				D5D8D2092AD47802000FD3CC /* Main.html */,
 				D5D8D2442AD483B2000FD3CC /* Icon.png */,
-				D5D8D2412AD481D5000FD3CC /* NS_Icon.png */,
+				D5F2C0112AD6AFAA008B6AF6 /* NS_1024.png */,
 				D5D8D20E2AD47802000FD3CC /* Style.css */,
 				D5D8D2102AD47802000FD3CC /* Script.js */,
 			);
@@ -141,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				D5D8D2242AD47803000FD3CC /* SafariExtensionHandler.swift */,
+				D5F2C0152AD6B463008B6AF6 /* ToolbarView.swift */,
 				D5D8D2262AD47803000FD3CC /* SafariExtensionViewController.swift */,
 				D5D8D22D2AD47803000FD3CC /* SafariExtensionViewController.xib */,
 				D5D8D2302AD47803000FD3CC /* Info.plist */,
@@ -158,6 +168,16 @@
 				D5D8D22B2AD47803000FD3CC /* ToolbarItemIcon.pdf */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		D5F2C0172AD6E8A0008B6AF6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D5F2C0182AD6E8C8008B6AF6 /* Economica-Bold.ttf */,
+				D5F2C0192AD6E8C8008B6AF6 /* Economica-Italic.ttf */,
+				D5F2C01A2AD6E8C8008B6AF6 /* Economica-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +263,12 @@
 			files = (
 				D5D8D2162AD47802000FD3CC /* Main.storyboard in Resources */,
 				D5D8D2112AD47802000FD3CC /* Script.js in Resources */,
-				D5D8D2422AD481D6000FD3CC /* NS_Icon.png in Resources */,
+				D5F2C0202AD6E8EF008B6AF6 /* Economica-Regular.ttf in Resources */,
+				D5F2C01E2AD6E8E8008B6AF6 /* Economica-Bold.ttf in Resources */,
 				D5D8D20B2AD47802000FD3CC /* Main.html in Resources */,
 				D5D8D2182AD47803000FD3CC /* Assets.xcassets in Resources */,
+				D5F2C01F2AD6E8EC008B6AF6 /* Economica-Italic.ttf in Resources */,
+				D5F2C0122AD6AFAA008B6AF6 /* NS_1024.png in Resources */,
 				D5D8D2452AD483B2000FD3CC /* Icon.png in Resources */,
 				D5D8D20F2AD47802000FD3CC /* Style.css in Resources */,
 			);
@@ -280,6 +303,7 @@
 			files = (
 				D5D8D2272AD47803000FD3CC /* SafariExtensionViewController.swift in Sources */,
 				D5D8D2252AD47803000FD3CC /* SafariExtensionHandler.swift in Sources */,
+				D5F2C0162AD6B463008B6AF6 /* ToolbarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,7 +528,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=macosx*]" = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "Night Surf/Night Surf.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -539,7 +565,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=macosx*]" = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "Night Surf/Night Surf.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
