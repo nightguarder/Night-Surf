@@ -10,10 +10,7 @@
 		<string>$(PRODUCT_MODULE_NAME).SafariExtensionHandler</string>
 		<key>SFSafariContentScript</key>
 		<array>
-			<dict>
-				<key>Dark</key>
-				<string>dark.js</string>
-			</dict>
+			<dict/>
 			<dict>
 				<key>Script</key>
 				<string>script.js</string>
@@ -35,6 +32,7 @@
 			<key>Allowed Domains</key>
 			<array>
 				<string>*.duckduckgo.com</string>
+				<string>*.google.com</string>
 				<string>*.apple.com</string>
 				<string>*.tradingview.com</string>
 			</array>

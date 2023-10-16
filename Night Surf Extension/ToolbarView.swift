@@ -9,6 +9,7 @@ import Foundation
 import SwiftUI
 
 
+
 class PopoverViewWrapper: SafariExtensionToolbarView {
 
     init() {
@@ -64,3 +65,4 @@ struct ToolbarView:View {
     }
     
 }
+
