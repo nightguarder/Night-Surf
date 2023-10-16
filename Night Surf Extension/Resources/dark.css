@@ -1,0 +1,22 @@
+* {
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    cursor: default;
+}
+
+:root {
+    color-scheme: dark;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    color: #3f0d7d;
+/*    #202124*/
+}
+.dark-mode {
+        background: #3e3939;
+        color: white;
+    }
