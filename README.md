@@ -30,7 +30,7 @@ Contributions are welcome! If you'd like to contribute to Night Surf, please ope
 
 ## License
 
-This project is licensed under the [BSD2 License](https://opensource.org/license/bsd-2-clause/) - see the [LICENSE](LICENSE.md) file for details.
+This project is licensed under the [BSD2 License](https://opensource.org/license/bsd-2-clause/) - see the [LICENSE](LICENSE) file for details.
 
 ---
 
